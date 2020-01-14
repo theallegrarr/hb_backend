@@ -1,5 +1,5 @@
 /* eslint-disable consistent-return */
-const { body, validationResult } = require('express-validator/check');
+const { body, validationResult } = require('express-validator');
 const jsonpatch = require('fast-json-patch');
 const router = require('express').Router();
 const validateToken = require('../middlewares/validateToken');
@@ -10,14 +10,16 @@ router.post('/',
   validateToken,
   (req, res) => {
     const errors = validationResult(req);
-    if (!errors.isEmpty())res.status(400).json({ error: errors.array() });
+    if (!errors.isEmpty()) {
+      res.status(400).json({ error: errors.array() });
+    } else {
+      const { jsonObject } = req.body;
+      const jsonPatch = req.body.jsonPatchObject;
 
-    const { jsonObject } = req.body;
-    const jsonPatch = req.body.jsonPatchObject;
+      const patchedObject = jsonpatch.applyPatch(jsonObject, jsonPatch).newDocument;
 
-    const patchedObject = jsonpatch.applyPatch(jsonObject, jsonPatch).newDocument;
-
-    res.status(200).json({ patchedObject });
+      res.status(200).json({ patchedObject });
+    }
   });
 
 module.exports = router;

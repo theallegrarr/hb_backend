@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1579029056770" clover="3.2.0">
-  <project timestamp="1579029056770" name="All files">
-    <metrics statements="53" coveredstatements="53" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6" elements="69" coveredelements="69" complexity="0" loc="53" ncloc="53" packages="3" files="5" classes="5"/>
+<coverage generated="1579029450369" clover="3.2.0">
+  <project timestamp="1579029450369" name="All files">
+    <metrics statements="54" coveredstatements="54" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6" elements="70" coveredelements="70" complexity="0" loc="54" ncloc="54" packages="3" files="5" classes="5"/>
     <package name="api">
       <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="server.js" path="C:\Others\HackerBay\backend_task\api\server.js">
@@ -50,9 +50,9 @@
       </file>
     </package>
     <package name="routes">
-      <metrics statements="21" coveredstatements="21" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <file name="jsonpatch.js" path="C:\Others\HackerBay\backend_task\routes\jsonpatch.js">
-        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="2" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
@@ -60,11 +60,12 @@
         <line num="7" count="3" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
         <line num="13" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="23" count="3" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
       </file>
       <file name="user.js" path="C:\Others\HackerBay\backend_task\routes\user.js">
         <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
