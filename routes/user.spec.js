@@ -3,7 +3,7 @@
 const request = require('supertest');
 const server = require('../api/server');
 
-describe('server', () => {
+describe('user route', () => {
   describe('[POST] /api/users/login endpoint', () => {
     test('should return 200 OK', async () => {
       const response = await request(server)
