@@ -1,63 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1579029450369" clover="3.2.0">
-  <project timestamp="1579029450369" name="All files">
-    <metrics statements="54" coveredstatements="54" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6" elements="70" coveredelements="70" complexity="0" loc="54" ncloc="54" packages="3" files="5" classes="5"/>
+<coverage generated="1579036624561" clover="3.2.0">
+  <project timestamp="1579036624561" name="All files">
+    <metrics statements="73" coveredstatements="73" conditionals="12" coveredconditionals="12" methods="7" coveredmethods="7" elements="92" coveredelements="92" complexity="0" loc="73" ncloc="73" packages="3" files="6" classes="6"/>
     <package name="api">
-      <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="server.js" path="C:\Others\HackerBay\backend_task\api\server.js">
-        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="17" count="3" type="stmt"/>
-        <line num="18" count="4" type="stmt"/>
-        <line num="21" count="3" type="stmt"/>
+        <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
       </file>
     </package>
     <package name="middlewares">
       <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
       <file name="generateToken.js" path="C:\Others\HackerBay\backend_task\middlewares\generateToken.js">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="2" count="4" type="stmt"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
         <line num="9" count="2" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
         <line num="18" count="2" type="stmt"/>
-        <line num="21" count="4" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
       </file>
       <file name="validateToken.js" path="C:\Others\HackerBay\backend_task\middlewares\validateToken.js">
         <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="7" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="12" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="7" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="12" count="6" type="cond" truecount="2" falsecount="0"/>
         <line num="13" count="1" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
       </file>
     </package>
     <package name="routes">
-      <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <metrics statements="39" coveredstatements="39" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+      <file name="image.js" path="C:\Others\HackerBay\backend_task\routes\image.js">
+        <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+      </file>
       <file name="jsonpatch.js" path="C:\Others\HackerBay\backend_task\routes\jsonpatch.js">
         <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
         <line num="13" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="14" count="1" type="stmt"/>
@@ -65,19 +87,19 @@
         <line num="17" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
-        <line num="25" count="3" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
       </file>
       <file name="user.js" path="C:\Others\HackerBay\backend_task\routes\user.js">
         <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
         <line num="5" count="3" type="stmt"/>
         <line num="7" count="3" type="cond" truecount="4" falsecount="0"/>
         <line num="8" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
         <line num="18" count="2" type="stmt"/>
-        <line num="22" count="3" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
       </file>
     </package>
   </project>

@@ -10,9 +10,11 @@ server.use(cors());
 
 const usersRoute = require('../routes/user');
 const patchRoute = require('../routes/jsonpatch');
+const imageRoute = require('../routes/image');
 
-server.use('/api/users', usersRoute);
-server.use('/api/patch', patchRoute);
+server.use('/api/v1/users', usersRoute);
+server.use('/api/v1/patch', patchRoute);
+server.use('/api/v1/image', imageRoute);
 
 server.get('/', (req, res) => {
   res.status(200).json({ message: "It's alive!" });
