@@ -8,6 +8,8 @@ const requestBody = {
   imageUrl: 'https://bezkoder.com/wp-content/uploads/2019/09/node-js-upload-multiple-files-feature-image.png',
 };
 
+afterAll(() => setTimeout(() => process.exit(), 1000));
+
 describe('json patch route', () => {
   describe('[POST] /api/v1/image', () => {
     test('should return 200 OK', async () => {
