@@ -18,10 +18,10 @@ const patchObject = {
 };
 
 describe('json patch route', () => {
-  describe('[POST] /api/patch', () => {
+  describe('[POST] /api/v1/patch', () => {
     test('should return 200 OK', async () => {
       const response = await request(server)
-        .post('/api/patch')
+        .post('/api/v1/patch')
         .send(patchObject)
         .set('Authorization', process.env.TEST_TOKEN);
 
@@ -30,7 +30,7 @@ describe('json patch route', () => {
 
     test('should return 400 Error', async () => {
       const response = await request(server)
-        .post('/api/patch')
+        .post('/api/v1/patch')
         .set('Authorization', process.env.TEST_TOKEN);
 
       expect(response.status).toBe(400);
@@ -38,7 +38,7 @@ describe('json patch route', () => {
 
     test('should return 401 Unauthorized', async () => {
       const response = await request(server)
-        .post('/api/patch')
+        .post('/api/v1/patch')
         .send(patchObject);
 
       expect(response.status).toBe(401);
@@ -46,7 +46,7 @@ describe('json patch route', () => {
 
     test('should return 401 for wrong token', async () => {
       const response = await request(server)
-        .post('/api/patch')
+        .post('/api/v1/patch')
         .send(patchObject)
         .set('Authorization', 'wrong_token');
 
@@ -55,7 +55,7 @@ describe('json patch route', () => {
 
     test('should return 401 Unauthorized', async () => {
       const response = await request(server)
-        .post('/api/users/login');
+        .post('/api/v1/users/login');
 
       expect(response.status).toBe(401);
     });
