@@ -4,10 +4,10 @@ const request = require('supertest');
 const server = require('../api/server');
 
 describe('user route', () => {
-  describe('[POST] /api/users/login endpoint', () => {
+  describe('[POST] /api/v1/users/login endpoint', () => {
     test('should return 200 OK', async () => {
       const response = await request(server)
-        .post('/api/users/login')
+        .post('/api/v1/users/login')
         .send({ username: 'Solomon', password: 'lane' });
 
       expect(response.status).toBe(200);
@@ -15,7 +15,7 @@ describe('user route', () => {
 
     test('should return 401 Unauthorized', async () => {
       const response = await request(server)
-        .post('/api/users/login');
+        .post('/api/v1/users/login');
 
       expect(response.status).toBe(401);
     });
