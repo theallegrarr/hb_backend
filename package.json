@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
+    "test": "jest --watchAll --coverage",
     "server": "nodemon index.js",
     "start": "node index.js",
     "eslint": "./node_modules/.bin/eslint --init"
