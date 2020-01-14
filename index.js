@@ -1,4 +1,8 @@
 const server = require('./api/server.js');
 
-const port = process.env.PORT || 7000;
-server.listen(port, () => console.log(`\n** Running on port ${port} **\n`));
+const PORT = 8080;
+const HOST = '0.0.0.0';
+
+server.listen(PORT, HOST, () => {
+  console.log(`Running on http://${HOST}:${PORT}`);
+});
