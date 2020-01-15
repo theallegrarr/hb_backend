@@ -11,7 +11,7 @@ A basic nodejs API with auth, json patch and image resize operations.
 
 **3.** Make sure you have docker installed on your PC, get it from the docker website
 
-**4.** Start the server by using docker ```docker run -p 49165:8080 -d test-node-app```
+**4.** Start the server by using docker ```docker run -p 49165:8080 -d backend_task```
 
 **5.** After that, the API should be live on ```http://localhost:49165/```
 
