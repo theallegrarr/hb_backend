@@ -9,7 +9,11 @@ A basic nodejs API with auth, json patch and image resize operations.
 
 **2.** Open your terminal in the root of the folder and run ```npm install```
 
-**3.** Start the server by using docker or running ```npm start```
+**3.** Make sure you have docker installed on your PC, get it from the docker website
+
+**4.** Start the server by using docker ```docker run -p 49165:8080 -d test-node-app```
+
+**5.** After that, the API should be live on ```http://localhost:49165/```
 
 NOTE: Create a ```.env``` file in the root and add;
 
