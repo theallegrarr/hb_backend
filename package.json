@@ -7,7 +7,8 @@
     "test": "jest --watchAll --coverage",
     "server": "nodemon index.js",
     "start": "node index.js",
-    "eslint": "./node_modules/.bin/eslint --init"
+    "eslint": "./node_modules/.bin/eslint --init",
+    "coverage": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "author": "Nurudeen Amedu",
   "license": "ISC",
@@ -26,6 +27,7 @@
     "valid-url": "^1.0.9"
   },
   "devDependencies": {
+    "coveralls": "^3.0.9",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.0",
