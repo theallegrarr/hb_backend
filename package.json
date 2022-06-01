@@ -23,7 +23,7 @@
     "jimp": "^0.9.3",
     "jsonwebtoken": "^8.5.1",
     "resize-optimize-images": "^1.1.0",
-    "sharp": "^0.23.4",
+    "sharp": "^0.30.5",
     "valid-url": "^1.0.9"
   },
   "devDependencies": {
